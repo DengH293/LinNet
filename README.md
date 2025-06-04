@@ -91,8 +91,8 @@ If you find this work useful, please consider citing:
 }
 ```
     
-      ## 🙏 Acknowledgements
-      Our code is heavily brought from
-    
-      - [Pointcept](https://github.com/Pointcept/Pointcept)
+## 🙏 Acknowledgements
+Our code is heavily brought from
+
+- [Pointcept](https://github.com/Pointcept/Pointcept)
 
