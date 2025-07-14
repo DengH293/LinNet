@@ -341,7 +341,7 @@ class FeaturePropogation(nn.Module):
         p1, f1, o1 = pfo1
         p2, f2, o2 = pfo2
 
-        idx, dist = knn_query(self.nsample, p2, o2.contiguous(), p1, o1.contiguous())  #TODO：交换MLP顺序
+        idx, dist = knn_query(self.nsample, p2, o2.contiguous(), p1, o1.contiguous())  
         f1 = f1 + self.pool(self.f2conv(f2[idx.long(), :]))
         f1 = self.norm(f1)
 
